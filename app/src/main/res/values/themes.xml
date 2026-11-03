@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DeviceDefault DayNight keeps system fonts (Google Sans on Pixel) and follows system dark mode. -->
+    <style name="Theme.PixelIsland" parent="android:Theme.DeviceDefault.DayNight">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>
